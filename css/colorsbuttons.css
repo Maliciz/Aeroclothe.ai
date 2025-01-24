@@ -12,6 +12,10 @@
   position: sticky;
   top: 0;
   left: 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 1000;
 }
 thg{
   color: #FFF59E;
@@ -29,23 +33,27 @@ thgh{
   left: 50px;
   text-decoration: underline rgba(255, 255, 255, 0.726) 3px;
 
-}s
-.form-control .me-2 .search-input{
-  width: 50%; 
-  height: 50px;
-  border-radius: 25px;
-  padding: 0 20px;
-  font-size: 16px;
-  background-color: #FFF59E;
+}
+.search-input {
+  width: 25%; 
+  height: 40px; 
+  border-radius: 20px; 
+  padding: 0 15px; 
+  font-size: 14px; 
+  background-color: #eeeeee;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: #5C2C45;
   font-family: 'Inria Sans', sans-serif;
   font-weight: bold;
+  display: block; 
+  margin: 0 auto; 
 }
-.form-control:active{
-border: re
+.form-control:hover {
+  border: 1px solid rgb(163, 8, 194);
 }
+
+
 .search-input::placeholder {
   color: black;
   font-family: 'Inria Sans', sans-serif;
