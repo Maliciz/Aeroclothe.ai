@@ -1,13 +1,13 @@
-@import url(style.scss);
-@import url("https://fonts.googleapis.com/css? family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("style.scss");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
 body, html {
-  margin-left: 100px;
+
   font-family: sans-serif;
-  margin-right: 100px;
+
   position: relative;
-}
-
-body{ 
-    color:black;
-
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF59E; 
 }
