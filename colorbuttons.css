@@ -1,1 +1,61 @@
 
+@import url(style.scss);
+@import url("https://fonts.googleapis.com/css? family=Poppins:100,200,300,400,500,600,700,800,900");
+
+
+
+.navbar.navbar-light.bg-0001 {
+  width: 100vw; 
+  box-sizing: border-box; 
+  background-color: #5C2C45;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 1000;
+}
+thg{
+  color: #FFF59E;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+thgh{
+  color: #ffffff8f;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: regular;
+  font-size: 25px;
+  position: relative;
+  left: 50px;
+  text-decoration: underline rgba(255, 255, 255, 0.726) 3px;
+
+}
+.search-input {
+  width: 25%; 
+  height: 40px; 
+  border-radius: 20px; 
+  padding: 0 15px; 
+  font-size: 14px; 
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #5C2C45;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: bold;
+  display: block; 
+  margin: 0 auto; 
+}
+.form-control:hover {
+  border: 1px solid rgb(163, 8, 194);
+}
+
+
+.search-input::placeholder {
+  color: black;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: bold;
+}
